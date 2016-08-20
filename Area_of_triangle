@@ -1,0 +1,20 @@
+# Assassin-codes
+import java.util.*;
+class areaTriangle{
+public static void main(String[] args){
+     Scanner sc=new Scanner(System.in);
+	 float a=sc.nextFloat();
+	 float b=sc.nextFloat();
+	 float c=sc.nextFloat();
+	 float s=(a+b+c)/2;
+	 double area=Math.sqrt((s*(s-a)*(s-b)*(s-c)));
+	 if((int)area==area)
+	 {
+		 System.out.print((int)area);
+	 }
+	 else
+	 {
+		 System.out.printf("%.1f",area);
+	 }
+}
+}
